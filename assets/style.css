@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container{
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  color: white;
+ height: 70px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.logotype{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.logo{
+  gap: 60px;
+  display: flex;
+}
+ul{
+  display: flex;
+  gap: 16px;
+}
+li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+.log-in{
+  display: flex;
+ gap: 12px;
+ align-items: center;
+ 
+}
+.login{
+  font-size: 11px;
+  font-weight: bold;
+}
+.btn-become{
+  width: 164px;
+  height: 40px;
+  background: #23A6F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+  gap: 12px;
+}
+
+
+.hero{
+  background-image: url(../assets/img/hero.jpg);
+  width: 100%;
+  height: 608px;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-top: -70px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.text-center{
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.text-center h1{
+  color: white;
+  font-size: 44px;
+}
+.text-center p{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.buttons{
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 11px; 
+   color: white;
+}
+.btn-now{
+  width: 141px;
+  height: 40px;
+  background: #23A6F0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 28px;
+}
+.btn-more{
+  width: 141px;
+  height: 40px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+.cards-life{
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.card-life{
+  background: white;
+  width: 251px;
+  height: 154px;
+  padding: 26px 30px;
+ 
+}
+.card-life h2{
+  font-size: 18px;
+  font-weight: bold;
+   margin-bottom: 7px;
+   margin-top: 7px;
+}
+.card-life p{
+  font-weight: medium;
+  font-size: 11px;
+  color: #737373;
+}
+.bg-blue{
+  background: #23A6F0;
+  color: white;
+}
+.bg-blue p{
+  color: white;
+}
+
+
+.features{
+  width: 805px;
+  height: 334px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 70px;
+}
+.feature{
+  width: 252px;
+  height: 186px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 31px 38px;
+}
+.feature h2{
+  font-weight: bold;
+  font-size: 12px;
+
+}
+.feature p{
+  text-align: center;
+  color: #737373;
+  font-size: 10px;
+  font-weight: medium;
+}
+
+
